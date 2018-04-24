@@ -1,0 +1,1 @@
+go build -a -ldflags= -v -o ./fesl.exe ./cmd/fesl-backend
