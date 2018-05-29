@@ -121,7 +121,7 @@ func CreateServer(tx *dbr.Tx) error {
 		SoldierName:     "Test-Server",
 		AccountUsername: "Test-Server",
 		AccountPassword: "Test-Server",
-		APIKey:          "SERVER-APIKEY",
+		APIKey:          "TEST123",
 	}
 
 	err := model.InsertServer(tx, &server)
