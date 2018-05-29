@@ -64,7 +64,7 @@ func TestServerLogin(t *testing.T) {
 		"sku":             `125170`,
 		"locale":          `en_US`,
 		"clientPlatform":  `PC`,
-		"clientVersion":   `1.42.217478.0`,
+		"clientVersion":   `1.89.2.0`,
 		"SDKVersion":      `5.0.0.0.0`,
 		"protocolVersion": `2.0`,
 		"fragmentSize":    `8096`,
@@ -75,7 +75,7 @@ func TestServerLogin(t *testing.T) {
 		"TXN": `NuLogin`,
 		"returnEncryptedInfo": `0`,
 		"nuid":                ``,
-		"password":            `MachoVirgem`,
+		"password":            `1A[SDHe$e37@82x7`,
 		"macAddr":             `$0a0027000000`,
 	}))
 
@@ -133,6 +133,8 @@ func TestClientLogin(t *testing.T) {
 	fsysCtrl.Hello(client, fsysHello)
 
 	// GET https://heroes-api/nucleus/authToken HTTP/1.1
+	// GET https://heroes-api/en/products/offers HTTP/1.1
+
 
 	acctCtrl.NuLogin(createEventCommand(
 		client,
