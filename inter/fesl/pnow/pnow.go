@@ -11,7 +11,7 @@ const (
 	pnowStatus = "Status"
 )
 
-// PlayNow probably stands for PlayNow
+// PlayNow button starts the matchmaking system to find the best server
 type PlayNow struct {
 	MM *matchmaking.Pool
 }
